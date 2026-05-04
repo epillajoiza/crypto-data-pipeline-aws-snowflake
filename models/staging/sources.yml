@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: RAW
+    database: CRYPTO_DEV_ERICK
+    schema: RAW
+    tables:
+      - name: STG_BITCOIN_PRICES
+      - name: RAW_BITCOIN_DAILY
+      - name: RAW_ETHEREUM_DAILY
+      - name: RAW_SOLANA_DAILY    
+      - name: RAW_CARDANO_DAILY    
+      - name: DIM_COIN
+      - name: DIM_EXCHANGE
+      - name: FCT_TRADES
+      - name: DIM_DATE
